@@ -1,45 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 800" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 420" role="img" aria-labelledby="title desc">
   <title id="title">Aleksander Vlasov banner</title>
-  <desc id="desc">High-contrast monochrome GitHub profile banner.</desc>
+  <desc id="desc">Compact monochrome GitHub profile banner.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="55%" stop-color="#101010"/>
-      <stop offset="100%" stop-color="#8f8f8f"/>
+      <stop offset="58%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#8c8c8c"/>
     </linearGradient>
-    <radialGradient id="light1" cx="84%" cy="20%" r="42%">
-      <stop offset="0%" stop-color="#f4f4f4" stop-opacity="0.98"/>
-      <stop offset="55%" stop-color="#e7e7e7" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#e7e7e7" stop-opacity="0"/>
+    <radialGradient id="light1" cx="86%" cy="18%" r="42%">
+      <stop offset="0%" stop-color="#f4f4f4" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#f4f4f4" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="light2" cx="96%" cy="58%" r="38%">
-      <stop offset="0%" stop-color="#f1f1f1" stop-opacity="0.75"/>
-      <stop offset="60%" stop-color="#d9d9d9" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#d9d9d9" stop-opacity="0"/>
+    <radialGradient id="light2" cx="96%" cy="62%" r="34%">
+      <stop offset="0%" stop-color="#efefef" stop-opacity="0.68"/>
+      <stop offset="100%" stop-color="#efefef" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="softGlow" cx="98%" cy="6%" r="68%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.22"/>
-    </linearGradient>
   </defs>
 
-  <rect width="2048" height="800" fill="url(#bg)"/>
-  <rect width="2048" height="800" fill="url(#softGlow)"/>
+  <rect width="2048" height="420" fill="url(#bg)"/>
+  <circle cx="1780" cy="95" r="210" fill="url(#light1)"/>
+  <circle cx="1970" cy="270" r="170" fill="url(#light2)"/>
 
-  <circle cx="1800" cy="150" r="360" fill="url(#light1)"/>
-  <circle cx="1960" cy="520" r="340" fill="url(#light2)"/>
-
-  <path d="M0 410C260 330 420 680 780 580C1120 486 1260 240 1600 350C1790 412 1920 548 2048 500V800H0Z" fill="#ffffff" opacity="0.12"/>
-  <path d="M0 620C210 500 470 760 800 690C1110 624 1300 420 1620 508C1810 560 1930 688 2048 660V800H0Z" fill="#ffffff" opacity="0.07"/>
-  <path d="M0 780H2048V800H0Z" fill="url(#fog)"/>
+  <path d="M0 214C220 168 420 310 760 280C1100 250 1280 96 1600 150C1770 180 1930 256 2048 236V420H0Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M0 322C240 254 460 386 820 350C1130 320 1360 212 1630 260C1810 292 1930 364 2048 352V420H0Z" fill="#ffffff" opacity="0.06"/>
 
   <g fill="#f5f5f5" font-family="Arial, sans-serif">
-    <text x="96" y="290" font-size="120" font-weight="700">Aleksander Vlasov</text>
-    <text x="102" y="416" font-size="54" font-weight="400" fill="#f0f0f0">ML systems builder</text>
-    <text x="102" y="528" font-size="44" font-weight="400" fill="#e4e4e4">Evaluation  •  Robustness  •  Real-time systems</text>
+    <text x="72" y="154" font-size="62" font-weight="700">Aleksander Vlasov</text>
+    <text x="74" y="206" font-size="28" font-weight="400" fill="#f0f0f0">ML systems builder</text>
+    <text x="74" y="250" font-size="24" font-weight="400" fill="#e4e4e4">Evaluation  •  Robustness  •  Real-time systems</text>
   </g>
 </svg>
