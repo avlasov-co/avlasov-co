@@ -1,6 +1,6 @@
 # Aleksander Vlasov
 
-<img src="./banner.svg" alt="Aleksander Vlasov profile banner" width="100%" />
+<img src="./banner.svg" alt="Aleksander Vlasov profile banner" width="40%" />
 
 ML systems builder working on evaluation, robustness, and real-time systems.
 
