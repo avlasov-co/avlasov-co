@@ -2,7 +2,7 @@
 
 <img src="./banner.svg" alt="Aleksander Vlasov profile banner" width="100%" />
 
-ML systems builder working on real-time evaluation, forecasting, and robustness under distribution shift.
+ML systems builder working on evaluation, robustness, and real-time systems.
 
 RU / EN / ES
 
@@ -14,29 +14,15 @@ I build technical artifacts around:
 - repo-context tooling;
 - real-time ML systems.
 
-The focus is not demo projects. I care more about runnable artifacts, reproducibility, failure modes, measurable tradeoffs, and systems that can be inspected instead of only described.
+I care about runnable artifacts, reproducibility, failure modes, measurable tradeoffs, and systems that can be inspected instead of only described.
 
 ## Projects
 
-### Tool-Agent Shift Benchmark
-
-Deterministic benchmark for evaluating tool-using agents under synthetic environment shift.
-
-### streaming-agent-safety-evals
-
-No-training benchmark for evaluating unsafe overconfidence and intervention behavior under dynamic or streaming-like conditions.
-
-### Android Trust Lab
-
-Defensive Android trust-state measurement framework.
-
-### RepoForge
-
-Local-first VS Code extension for building structured repository context packs for coding agents.
-
-### Polinash
-
-Private applied ML systems project focused on forecasting, real-time alerts, and ML infrastructure.
+- [Tool-Agent Shift Benchmark](https://github.com/avlasov-co/tool-agent-shift-benchmark)
+- [streaming-agent-safety-evals](https://github.com/avlasov-co/streaming-agent-safety-evals)
+- [Android Trust Lab](https://github.com/avlasov-co/android-trust-lab)
+- [RepoForge](https://github.com/avlasov-co/repoforge)
+- Polinash
 
 ## Direction
 
